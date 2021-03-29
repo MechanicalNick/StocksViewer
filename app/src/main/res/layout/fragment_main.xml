@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginLeft="16dp"
+              android:layout_marginRight="16dp"
+              android:orientation="vertical"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              tools:context=".view.fragment.MainFragment">
+
+    <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="48dp"
+            android:queryHint="@string/queryHint"
+            android:searchIcon="@drawable/search_icon"
+            android:background="@drawable/searchview"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:id="@+id/chipLayout"
+                  android:layout_marginTop="32dp"
+                  android:layout_marginLeft="20dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="You’ve searched for this"
+                  android:textSize="24dp"/>
+        <com.google.android.material.chip.ChipGroup
+                android:layout_marginTop="11dp"
+                android:id="@+id/chipGroup"
+                android:layout_width="wrap_content"
+                app:chipSpacingVertical="2dp"
+                android:layout_height="wrap_content">
+        </com.google.android.material.chip.ChipGroup>
+    </LinearLayout>
+
+    <com.google.android.material.tabs.TabLayout
+            app:tabMode="fixed"
+            android:layout_marginTop="20dp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextColor="@color/gray"
+            android:id="@+id/tab_layout"
+            style="@style/AppTabLayout"
+            app:tabTextAppearance="@style/AppTabTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+</LinearLayout>

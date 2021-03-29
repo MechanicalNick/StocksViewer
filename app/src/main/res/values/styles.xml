@@ -1,0 +1,39 @@
+<resources>
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorHeight">0dp</item>
+        <item name="tabPaddingStart">4dp</item>
+        <item name="tabPaddingEnd">4dp</item>
+        <item name="tabPaddingTop">4dp</item>
+        <item name="tabPaddingBottom">4dp</item>
+        <item name="tabGravity">start</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+    </style>
+
+    <!-- for text -->
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">28sp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/monserrat</item>
+    </style>
+
+    <style name="ChipStyle" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="fontFamily">@font/monserrat</item>
+        <item name="android:fontFamily">@font/monserrat</item>
+        <item name="android:radius">20dp</item>
+        <item name="android:width">94dp</item>
+        <item name="android:height">40dp</item>
+        <item name="chipBackgroundColor">@color/light_gray</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@drawable/date_button_selector</item>
+        <item name="android:width">42dp</item>
+        <item name="android:height">46dp</item>
+        <item name="android:textColor">@drawable/radiobuttonstate</item>
+    </style>
+
+</resources>

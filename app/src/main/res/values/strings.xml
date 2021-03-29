@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">StocksViewer</string>
+    <string name="title_activity_splash">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Stocks">Stocks</string>
+    <string name="Favourite">Favourite</string>
+    <string name="queryHint">Find company or ticker</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="d">D</string>
+    <string name="_1h">1H</string>
+    <string name="w">W</string>
+    <string name="m">M</string>
+    <string name="_3m">3M</string>
+    <string name="buy">Buy</string>
+    <string name="date_pattern">dd-MM-yyyy</string>
+    <string name="internet_connection_error">Internet connection error</string>
+    <string name="try_again">Try again</string>
+    <string name="loading">Loading</string>
+</resources>

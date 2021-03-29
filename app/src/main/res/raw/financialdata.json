@@ -1,0 +1,118 @@
+{
+    "maxAge": 86400,
+    "currentPrice": {
+        "raw": 12.83,
+        "fmt": "12.83"
+    },
+    "targetHighPrice": {
+        "raw": 14,
+        "fmt": "14.00"
+    },
+    "targetLowPrice": {
+        "raw": 8.75,
+        "fmt": "8.75"
+    },
+    "targetMeanPrice": {
+        "raw": 11.43,
+        "fmt": "11.43"
+    },
+    "targetMedianPrice": {
+        "raw": 11,
+        "fmt": "11.00"
+    },
+    "recommendationMean": {
+        "raw": 2.7,
+        "fmt": "2.70"
+    },
+    "recommendationKey": "hold",
+    "numberOfAnalystOpinions": {
+        "raw": 18,
+        "fmt": "18",
+        "longFmt": "18"
+    },
+    "totalCash": {
+        "raw": 30752000000,
+        "fmt": "30.75B",
+        "longFmt": "30,752,000,000"
+    },
+    "totalCashPerShare": {
+        "raw": 7.729,
+        "fmt": "7.73"
+    },
+    "ebitda": {
+        "raw": 4807000064,
+        "fmt": "4.81B",
+        "longFmt": "4,807,000,064"
+    },
+    "totalDebt": {
+        "raw": 162997993472,
+        "fmt": "163B",
+        "longFmt": "162,997,993,472"
+    },
+    "quickRatio": {
+        "raw": 1.053,
+        "fmt": "1.05"
+    },
+    "currentRatio": {
+        "raw": 1.201,
+        "fmt": "1.20"
+    },
+    "totalRevenue": {
+        "raw": 127144001536,
+        "fmt": "127.14B",
+        "longFmt": "127,144,001,536"
+    },
+    "debtToEquity": {
+        "raw": 529.025,
+        "fmt": "529.03"
+    },
+    "revenuePerShare": {
+        "raw": 32.002,
+        "fmt": "32.00"
+    },
+    "returnOnAssets": {
+        "raw": -0.00596,
+        "fmt": "-0.60%"
+    },
+    "returnOnEquity": {
+        "raw": -0.03985,
+        "fmt": "-3.99%"
+    },
+    "grossProfits": {
+        "raw": 6123000000,
+        "fmt": "6.12B",
+        "longFmt": "6,123,000,000"
+    },
+    "freeCashflow": {
+        "raw": 4243500032,
+        "fmt": "4.24B",
+        "longFmt": "4,243,500,032"
+    },
+    "operatingCashflow": {
+        "raw": 24269000704,
+        "fmt": "24.27B",
+        "longFmt": "24,269,000,704"
+    },
+    "earningsGrowth": [],
+    "revenueGrowth": {
+        "raw": -0.095,
+        "fmt": "-9.50%"
+    },
+    "grossMargins": {
+        "raw": 0.04816,
+        "fmt": "4.82%"
+    },
+    "ebitdaMargins": {
+        "raw": 0.037809998,
+        "fmt": "3.78%"
+    },
+    "operatingMargins": {
+        "raw": -0.0197,
+        "fmt": "-1.97%"
+    },
+    "profitMargins": {
+        "raw": -0.01006,
+        "fmt": "-1.01%"
+    },
+    "financialCurrency": "USD"
+}

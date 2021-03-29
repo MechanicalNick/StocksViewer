@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/error" >
+    <corners android:radius="35px"/>
+    <size android:height="128px" android:width="128px" />
+    <solid android:color="@color/design_default_color_error" />
+</shape>
